@@ -1,0 +1,148 @@
+
+@mixin light {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+@mixin italic {
+  font-family: "proxima-nova",sans-serif;
+  font-style: italic;
+  font-weight: 100;
+}
+
+@mixin bold {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@mixin rounded {
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+@mixin border-transition {
+  -webkit-transition: border linear .2s;
+  -moz-transition: border linear .2s;
+  transition: border linear .2s;
+}
+
+@mixin ease-animation {
+  -webkit-transition:background-color .3s ease-in-out; 
+  -moz-transition:background-color .3s ease-in-out; 
+  transition:background-color .3s ease-in-out; 
+}
+
+@mixin color-transition {
+  -webkit-transition:color .3s ease-in-out;
+  -moz-transition:color .3s ease-in-out; 
+  transition:color .3s ease-in-out; 
+}
+
+@mixin big-background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  -chrome-background-size: cover;
+  -moz-background-size: cover;
+  height: 500px;
+  margin: 0 auto;
+  padding-top: 10em;
+  text-align: center;
+}
+
+@mixin box-sizing {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -chrome-box-sizing: border-box;
+}
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,600);
+
+$brown:#4c3a1c;
+$mint:#9ad3b8;
+$darkmint:#266948;
+$chartreuse:#d2d227;
+$lightsage:#dee7cc;
+$sage:#5c6747;
+$cream:#f4f8eb;
+
+/*general
+----------------------------*/
+
+p {
+	
+}
+
+.btn {
+	
+}
+
+body {
+	color: #333;
+	@include light;
+}
+
+/*header
+----------------------------*/
+
+header {
+	
+}
+
+h1 {
+  font-size: 1.618em;
+  color: $sage;
+  @include bold;
+  text-transform: uppercase;
+}
+
+h2 {
+
+}
+
+p {
+
+}
+
+/*section1
+----------------------------*/
+
+.section1 {
+	
+}
+
+/*section2
+----------------------------*/
+
+.section2 {
+	
+}
+
+/*section3
+----------------------------*/
+
+.section3 {
+		
+}
+
+/*section4
+----------------------------*/
+
+.section4 {
+	
+}
+
+/*footer
+----------------------------*/
+
+footer {
+	
+}
+
+
+
+
+
+
+

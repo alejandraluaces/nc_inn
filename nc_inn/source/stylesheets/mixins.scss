@@ -1,0 +1,50 @@
+@mixin light {
+  font-family: ‘Raleway’, Helvetica, sans-serif; 
+  font-weight: 300; 
+}
+
+@mixin bold {
+  font-family: ‘Raleway’, Helvetica, sans-serif; 
+  font-weight: 600; 
+}
+
+@mixin rounded {
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+@mixin border-transition {
+  -webkit-transition: border linear .2s;
+  -moz-transition: border linear .2s;
+  transition: border linear .2s;
+}
+
+@mixin ease-animation {
+  -webkit-transition:background-color .3s ease-in-out; 
+  -moz-transition:background-color .3s ease-in-out; 
+  transition:background-color .3s ease-in-out; 
+}
+
+@mixin color-transition {
+  -webkit-transition:color .3s ease-in-out;
+  -moz-transition:color .3s ease-in-out; 
+  transition:color .3s ease-in-out; 
+}
+
+@mixin big-background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  -chrome-background-size: cover;
+  -moz-background-size: cover;
+  height: 500px;
+  margin: 0 auto;
+  padding-top: 10em;
+  text-align: center;
+}
+
+@mixin box-sizing {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -chrome-box-sizing: border-box;
+}
